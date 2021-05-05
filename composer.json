@@ -2,6 +2,12 @@
   "name": "ziya/yii2-redis-rate-limiter",
   "description": "Yii2 redis rate limiter.",
   "type": "library",
+  "authors": [
+    {
+      "name": "ZiyaVakhobov",
+      "email": "ziyavuddin.vakhobov@gmail.com"
+    }
+  ],
   "license": "Apache-2.0",
   "require": {
     "php": ">=7.3.0",
@@ -11,12 +17,6 @@
   "autoload": {
     "psr-4": {
       "ziya\\RedisRateLimiter\\": "src"
-    }
-  },
-  "config": {
-    "process-timeout": 1800,
-    "fxp-asset": {
-      "enabled": false
     }
   }
 }
