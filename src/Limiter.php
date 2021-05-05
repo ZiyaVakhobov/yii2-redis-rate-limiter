@@ -9,9 +9,18 @@ use ziya\RedisRateLimiter\exceptions\LimitExceeded;
 
 class Limiter
 {
-    private string $key_prefix;
-    private int $count;
-    private int $interval;
+    /**
+     * @var string
+     */
+    private $key_prefix;
+    /**
+     * @var int
+     */
+    private $count;
+    /**
+     * @var int
+     */
+    private $interval;
     /**
      * @var Connection
      */
