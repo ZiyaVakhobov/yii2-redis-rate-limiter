@@ -6,8 +6,8 @@ use Throwable;
 
 class LimitExceeded extends \Exception
 {
-    private int $count;
-    private int $interval;
+    private $count;
+    private $interval;
 
     /**
      * LimitExceeded constructor.
