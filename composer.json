@@ -2,6 +2,7 @@
   "name": "ziya/yii2-redis-rate-limiter",
   "description": "Yii2 redis rate limiter.",
   "type": "library",
+  "license": "Apache-2.0",
   "require": {
     "php": ">=7.3.0",
     "yiisoft/yii2": "~2.0",
