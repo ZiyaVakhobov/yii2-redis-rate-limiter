@@ -64,7 +64,7 @@ class Limiter
 
     private function updateValue(string $key, int $interval)
     {
-        $requestCount = $this->redis->incr($key);
+        $requestCount = (int)$this->redis->incr($key);
         if ($requestCount === 1) {
             $this->redis->expire($key, $interval);
         }
